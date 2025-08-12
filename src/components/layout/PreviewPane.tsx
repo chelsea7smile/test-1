@@ -6,7 +6,7 @@ import {
   DropdownMenuItem, 
   DropdownMenuTrigger 
 } from '../ui/dropdown-menu';
-import { FileText, Layers, Edit3, ChevronUp, Monitor, Tablet, Smartphone, Undo2, Redo2, PenTool, PanelLeftClose } from 'lucide-react';
+import { Layers, ChevronUp, Monitor, Tablet, Smartphone, Undo2, Redo2, PenTool, PanelLeftClose } from 'lucide-react';
 
 interface PreviewPaneProps {
   onToggleChat: () => void;

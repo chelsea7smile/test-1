@@ -6,7 +6,7 @@ import {
   DropdownMenuItem, 
   DropdownMenuTrigger 
 } from '../ui/dropdown-menu';
-import { Plus, Mic, ChevronUp, Settings, ArrowLeft, FileText, Link, Link2, Globe } from 'lucide-react';
+import { Plus, Mic, ChevronUp, Settings, ArrowLeft, FileText, Link, Globe } from 'lucide-react';
 import aiIcon from '../../assets/icons/ai-icon.png';
 import sendButton from '../../assets/icons/send-button.png';
 
@@ -112,11 +112,6 @@ const ChatPanel: React.FC<ChatPanelProps> = () => {
 
   const handleMicClick = () => {
     console.log('Microphone clicked');
-  };
-
-  const handleAttachClick = (type: string) => {
-    console.log(`${type} clicked`);
-    setIsAttachMenuOpen(false);
   };
 
   return (
